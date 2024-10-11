@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        'xs': '400px',
+      },
+      animation:{
+        'vertical-spin': 'verticalspin 40s linear infinite'
+      },
+      keyframes:{
+        verticalspin: {
+          'from': {transform: 'rotatey(360deg)'},
+          'to': {transform: 'rotatey(0deg)'}
+        }
+      }
+    },
   },
   plugins: [],
 }
