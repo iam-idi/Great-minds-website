@@ -23,7 +23,7 @@ const Triad = () => {
         <h1 className="text-center absolute top-36 left-[10rem] bg-clip-text text-transparent bg-gradient-to-tr from-sky-200 via-sky-900 to-sky-400 font-bold text-sm sm:text-base">{text}</h1>
         <div className="w-1 h-44 bg-sky-800 absolute top-10 left-36 rotate-[30deg] blur-[1px]"></div>
         <div className="w-1 h-44 bg-sky-200 absolute top-14 left-60 -rotate-[30deg] blur-[1px]"></div>
-        <div className="w-1 h-44 bg-sky-400 absolute bottom-14 left-44 rotate-90 blur-[1px]"></div>
+        <div className="w-1 h-44 bg-sky-400 absolute top-32 left-44 rotate-90 blur-[1px]"></div>
     </div>
   )
 }
