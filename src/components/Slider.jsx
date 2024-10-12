@@ -10,7 +10,7 @@ const logos = [
 
 const Slider = () => {
   return (
-    <div className="overflow-hidden w-full py-4 rounded-l-full rounded-r-full">
+    <div className="overflow-hidden w-full mt-10 sm:mt-14 py-4 rounded-l-full rounded-r-full">
       <div className="flex w-max animate-scroll">
         {logos.map((logo, index) => (
           <div key={index} className="mx-4">
