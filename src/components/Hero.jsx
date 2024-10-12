@@ -1,4 +1,4 @@
-import Triad from "./Triad";
+import RotatingCircles from "./RotatingCircles";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
             Get Started
         </button>
       </div>
-      <Triad />
+      <RotatingCircles />
     </section>
   );
 };

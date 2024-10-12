@@ -3,9 +3,9 @@ import Circle from "./Circle"; // Import Circle component
 
 const RotatingCircles = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center">
       {/* Top two circles */}
-      <div className="flex justify-center space-x-8 mb-8">
+      <div className="flex justify-center space-x-8 mb-6">
         <Circle label="Useful" />
         <Circle label="Secure" />
       </div>
