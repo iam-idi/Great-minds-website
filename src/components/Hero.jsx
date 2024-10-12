@@ -2,7 +2,7 @@ import RotatingCircles from "./RotatingCircles";
 
 const Hero = () => {
   return (
-    <section className="min-h-[50vh] py-4 sm:py-20 grid sm:grid-cols-2 grid-cols-1 gap-6 md:gap-4 justify-center items-center">
+    <section className="min-h-[50vh] py-4 sm:py-20 grid sm:grid-cols-2 grid-cols-1 gap-12 md:gap-4 justify-center items-center">
       <div className="text-center sm:text-left">
         <h1 className="font-bold xs:font-extrabold text-2xl xs:text-4xl bg-clip-text text-transparent bg-gradient-to-br from-blue-800 via-sky-400 to-blue-800 leading-8 xs:leading-10 mb-2 xs:mb-4">Building Scalable Technologies For Human Development</h1>
         <h2 className="text-sky-200 text-sm xs:text-base">
