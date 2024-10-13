@@ -2,7 +2,7 @@ import {Link, NavLink} from 'react-router-dom';
 import logo from "../assets/images/logo.png"
 const Header = () => {
   return (
-    <header className='flex justify-between items-center flex-row px-2 sm:px-20 md:px-40 pt-2 sm:pt-6 bg-transparent backdrop-blur-md fixed top-0 w-full'>
+    <header className='flex justify-between items-center flex-row px-2 sm:px-20 md:px-40 pt-2 sm:pt-6 bg-transparent backdrop-blur-md fixed top-0 z-10 w-full'>
       <div className='flex justify-center items-center'>
         <img src={logo} alt="logo" className='inline-block w-12 h-12 sm:w-16 sm:h-16 rounded-full' />
         <Link to='/' className='inline-block text-center font-semibold text-sm sm:text-[18px] lineHeight bg-clip-text text-transparent bg-gradient-to-br from-blue-400 to-stone-200'>
