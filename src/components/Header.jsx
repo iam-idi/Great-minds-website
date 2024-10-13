@@ -28,15 +28,22 @@ const Header = () => {
         <DropdownMenu>
           <DropdownMenuTrigger><FaBars className='text-sky-500 text-xl xs:text-2xl'/></DropdownMenuTrigger>
             <DropdownMenuContent className="text-sky-200 bg-transparent backdrop-blur-lg shadow-lg shadow-sky-800 border border-slate-400">
-              <DropdownMenuItem>
-                <NavLink to='blogs' className=''>Blog</NavLink>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <NavLink to='about' className=''>About Us</NavLink>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <NavLink to='team' className=''>Team</NavLink>
-              </DropdownMenuItem>
+                <NavLink to='blogs' className=''>
+                  <DropdownMenuItem className="hover:bg-sky-600">
+                  Blog
+                  </DropdownMenuItem>
+                </NavLink>
+                <NavLink to='about' className=''>
+                  <DropdownMenuItem>
+                  About
+                  </DropdownMenuItem>
+                </NavLink>
+                <NavLink to='team' className=''>
+                  <DropdownMenuItem>
+                  Team
+                  </DropdownMenuItem>
+                </NavLink>
+              
             </DropdownMenuContent>
         </DropdownMenu>
       </div>

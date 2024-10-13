@@ -1,5 +1,4 @@
 // src/components/Circle.jsx
-
 // eslint-disable-next-line react/prop-types
 const Circle = ({ label }) => {
   return (
