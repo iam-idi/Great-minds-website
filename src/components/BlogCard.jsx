@@ -1,5 +1,3 @@
-
-// eslint-disable-next-line no-unused-vars
 const BlogCard = ({blog}) => {
   return (
     <div className="flex flex-col justify-center border-2 border-slate-600 mb-6 xs:mb-8 bg-slate-800 p-3 xs:p-4 rounded-md md:rounded-lg mt-3 sm:mt-4 min-h-fit sm:min-h-24 md:min-h-32">

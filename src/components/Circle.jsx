@@ -1,5 +1,3 @@
-// src/components/Circle.jsx
-// eslint-disable-next-line react/prop-types
 const Circle = ({ label }) => {
   return (
     <div className="relative w-20 sm:w-24 md:w-28 h-20 sm:h-24 md:h-28 flex items-center justify-center">
