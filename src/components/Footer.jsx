@@ -25,7 +25,7 @@ const Footer = () => {
           <div>
             <p>
               <FaLandmark className="font-bold text-base xs:text-lg md:text-xl xl:text-2xl mb-2"/>
-              <p className="mb-4 sm:mb-6 pl-4">No. 29/4 Bauchi Road, Dogon Agogo, Jos North, PLateau State, Nigeria</p>
+              <p className="mb-4 sm:mb-6 pl-4">No. 29/4 Bauchi Road, Dogon Agogo, Jos North, Plateau State, Nigeria</p>
             </p>
             <p className="mb-4 sm:mb-6">
               <FaPhone className="font-bold text-base xs:text-lg md:text-xl xl:text-2xl mb-2" />

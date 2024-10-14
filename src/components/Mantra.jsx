@@ -2,9 +2,9 @@ import MissionVision from "./MissionVision";
 
 const Mantra = () => {
   const mission =
-    "lkefjds hdhsjdjs hfhjdks sjskss fjhiygfsdys hg udfhs ussu jssbf jdhsbd dh hfh hdis";
+    "We are dedicated to creating scalable, secure and innovative solutions that address global challenges, drive sustainable development and empower communities.";
   const vision =
-    "hgdfutfg sdgdsyjs sgs ssh oshubcs su ssb fduos aiasb ndifsb sddss shsh shhhshs hfsh";
+    "We strive to inspire a world where technology and sustainability coexist, ensuring a brighter, more connected and sustainable future for generations to come.";
 
   return (
     <section className="mb-10 sm:mb-20">

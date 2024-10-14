@@ -10,7 +10,7 @@ const Blog = () => {
     <div className="w-4/5 sm:w-full border-2 border-slate-800 mx-auto mt-0 mb-6 sm:mb-8 md:mb-10"></div>
     {blogs.map((blog, index) => (
       <Link to={`${blog.id}`} key={index}>
-      <BlogCard blog={blog} />
+      <BlogCard blog={blog} notPreview={true} />
       </Link>
     )
   )}
