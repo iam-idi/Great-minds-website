@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png"
-import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaLandmark, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,7 +23,10 @@ const Footer = () => {
           </ul>
 
           <div>
-            <p className="mb-4 sm:mb-6">No. 29/4 Bauchi Road, Dogon Agogo, Jos North, PLateau State, Nigeria</p>
+            <p>
+              <FaLandmark className="font-bold text-base xs:text-lg md:text-xl xl:text-2xl mb-2"/>
+              <p className="mb-4 sm:mb-6 pl-4">No. 29/4 Bauchi Road, Dogon Agogo, Jos North, PLateau State, Nigeria</p>
+            </p>
             <p className="mb-4 sm:mb-6">
               <FaPhone className="font-bold text-base xs:text-lg md:text-xl xl:text-2xl mb-2" />
               <p className="pl-4 mb-2 sm:mb-3 ">+234(0) 816 6699 901</p>
