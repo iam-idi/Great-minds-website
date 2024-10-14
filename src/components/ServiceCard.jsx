@@ -1,6 +1,4 @@
 
-
-// eslint-disable-next-line react/prop-types
 const ServiceCard = ({icon, title, detail}) => {
   return (
     <div className="bg-inherit p-2 sm:p-4 border border-sky-900">
