@@ -5,7 +5,9 @@ const Team = () => {
   return (
     <>
       <h1 className="text-xl xs:text-2xl sm:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-sky-400 to-blue-800 font-bold xs:font-extrabold text-center mt-4 sm:mt-6 md:mt-10 mb-4 sm:mb-6">Meet Our Team</h1>
-      <div className="w-4/5 sm:w-full border-2 border-slate-800 mx-auto mt-0 mb-6 sm:mb-8 md:mb-10"></div>
+      <div className="w-4/5 sm:w-full border-2 border-slate-800 mx-auto mt-0 mb-2 sm:mb-4"></div>
+
+      <h2 className="text-center text-slate-400 mb-6 sm:mb-8 md:mb-10 text-sm sm:text-base font-semibold sm:font-bold">Meet the talented individuals that have dedicated their time, knowledge & effort for the betterment of life</h2>
 
       <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 auto-rows-fr gap-2 sm:gap-3 mb-8 xs:mb-10 md:mb-14">
         {teamData.map((team, index) => (
