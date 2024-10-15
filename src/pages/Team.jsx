@@ -9,7 +9,7 @@ const Team = () => {
 
       <h2 className="text-center text-slate-400 mb-6 sm:mb-8 md:mb-10 text-sm sm:text-base font-semibold sm:font-bold">Meet the talented individuals that have dedicated their time, knowledge & effort for the betterment of life</h2>
 
-      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 auto-rows-fr gap-2 sm:gap-3 mb-8 xs:mb-10 md:mb-14">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 auto-rows-fr gap-2 sm:gap-3 mb-8 xs:mb-10 md:mb-14">
         {teamData.map((team, index) => (
 
           <div key={index} className="mb-1 sm:mb-2 text-center">
@@ -18,7 +18,7 @@ const Team = () => {
             <h2 className="break-words text-sm xs:font-semibold xl:text-base text-sky-100">{team.name}</h2>
             <h3 className="break-words text-sm xl:text-base text-slate-300">{team.position}</h3>
 
-            <div className="flex gap-2 md:gap-4 xl:gap-6 justify-center items-center text-slate-400 font-semibold md:font-bold text-base xl:text-lg mt-2">
+            <div className="flex gap-4 md:gap-6 xl:gap-8 justify-center items-center text-slate-400 font-semibold md:font-bold text-base xl:text-lg mt-2">
               <Link to={team.links.twitter} className="hover:scale-125"><FaTwitter /></Link>
               <Link to={team.links.linkedin} className="hover:scale-125"><FaLinkedin /></Link>
               <Link to={team.links.website} className="hover:scale-125"><FaLink /></Link>
