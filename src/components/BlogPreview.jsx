@@ -5,7 +5,7 @@ import BlogCard from './BlogCard';
 import { Link } from 'react-router-dom';
 const BlogPreview = () => {
   return (
-    <section className="mb-10 sm:mb-20 px-10 sm:px-0">
+    <section className="mb-8 xs:mb-10 sm:mb-12 px-10 sm:px-0">
         <h2 className="text-xs lg:text-sm text-sky-300 font-bold mb-4">Blog Posts</h2>
         <Carousel opts={{loop: true}}>
             <CarouselContent className='items-center'>
