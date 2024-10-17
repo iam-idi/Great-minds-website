@@ -1,5 +1,13 @@
+import { useEffect } from 'react';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '../components/ui/accordion';
 const About = () => {
+
+  useEffect(() => {
+
+    window.scrollTo(0, 0)
+
+  }, []);
+
   return (
     <>
       <h1 className="text-xl xs:text-2xl sm:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-sky-400 to-blue-800 font-bold xs:font-extrabold text-center mt-4 sm:mt-6 md:mt-10 mb-4 sm:mb-6">

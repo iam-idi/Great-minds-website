@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../../data/blogPosts";
 import { FaArrowLeft } from "react-icons/fa";
@@ -5,6 +6,12 @@ import { FaArrowLeft } from "react-icons/fa";
 const Blog = () => {
   const { id } = useParams();
   const [ blog ] = data.filter(post => post.id == id);
+
+  useEffect(() => {
+
+    window.scrollTo(0, 0)
+
+  }, []);
  
   return (
     <section className="text-sky-400">

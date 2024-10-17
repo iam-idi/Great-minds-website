@@ -1,7 +1,16 @@
+import { useEffect } from "react";
+
 import { Link } from "react-router-dom";
 import teamData from "../../data/team";
 import { FaLink, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Team = () => {
+
+  useEffect(() => {
+
+    window.scrollTo(0, 0)
+
+  }, []);
+
   return (
     <>
       <h1 className="text-xl xs:text-2xl sm:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-sky-400 to-blue-800 font-bold xs:font-extrabold text-center mt-4 sm:mt-6 md:mt-10 mb-4 sm:mb-6">Meet Our Team</h1>

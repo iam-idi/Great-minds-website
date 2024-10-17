@@ -1,5 +1,4 @@
 import {createBrowserRouter, createRoutesFromElements, RouterProvider, Route} from "react-router-dom";
-
 // elements
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,9 +6,9 @@ import Blogs from "./pages/Blogs";
 import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
-
 // layouts
 import RootLayout from "./layouts/RootLayout";
+
 const App = () => {
 
   const router = createBrowserRouter(
